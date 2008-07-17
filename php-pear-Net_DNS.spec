@@ -7,7 +7,7 @@ Summary:	%{_pearname} - resolver library to communicate with a DNS server
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
 %define		_suf b3
-Release:	%mkrel 7
+Release:	%mkrel 8
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}%{_suf}.tar.bz2
@@ -17,7 +17,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 A resolver library used to communicate with a name server to perform
