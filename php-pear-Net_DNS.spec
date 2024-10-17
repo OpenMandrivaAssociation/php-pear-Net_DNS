@@ -8,7 +8,7 @@ Release:	5
 Summary:	Resolver library to communicate with a DNS server
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/Net_DNS/
+URL:		https://pear.php.net/package/Net_DNS/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
